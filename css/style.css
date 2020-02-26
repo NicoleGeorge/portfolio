@@ -1,0 +1,118 @@
+
+.navbar {
+  background-color: rgb(255, 196, 196);
+  height: 62px;
+
+}
+nav .navbar-nav li a{
+  color: chocolate !important;
+  }
+
+.navbar-brand span {
+  color:  #ffd2d4;
+  background-color: chocolate;
+  padding: 22px 22px;
+}
+
+.contact h2 {
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 45px 0;
+  padding: 25px 10px;
+  text-transform: uppercase;
+  color: chocolate;
+}
+
+h2 span {
+  background-color: ;
+  padding: 15px 15px;
+}
+
+.portfolio h2 {
+  margin: 45px 0;
+  text-transform: uppercase;
+}
+.portfolio p {
+  color: beige;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 5px;
+  position: absolute;
+  z-index: 1;
+  top: -120px;
+  background-color: #f5979c;
+  height: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio img {
+  margin: 10px 0;
+  widows: 100%;
+  width: 100%;
+  height: inherit;
+  padding: 10px 0;
+}
+
+body {
+  background-image: url('../img/bg-pattern.jpg');
+}
+
+.container {
+  background-color:  #ffebec;
+}
+
+.form-group {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: darkgoldenrod;
+}
+
+
+.btn {
+  background-color: #ffbbbe;
+  border-color:  #ffbbbe;
+  border-radius: 0;
+  color: chocolate;
+  margin: 40px 0;
+}
+
+.btn:hover {
+  background-color: chocolate;
+  color: #ffd2d4;
+  border-radius: 0;
+  border-color: chocolate;
+}
+
+footer {
+  background-color: #f5979c;
+  min-height: 220px;
+  background-image: url('../img/footer_background.png');
+  background-repeat: repeat;
+  background-size: 60%;
+  background-position: center;
+  color: #f5979c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+.social-icon {
+  height: 40px;
+  margin: 20px 20px;
+
+}
+
+.social-icons-container {
+  text-align: center;
+}
