@@ -37,24 +37,30 @@ h2 span {
 }
 .portfolio p {
   color: beige;
+  font-size: 18px;
+  font-weight: 600px;
   text-align: center;
   text-transform: uppercase;
-  padding: 20px 5px;
-  position: absolute;
+  padding: 17px 5px;
   z-index: 1;
   top: -120px;
   background-color: #f5979c;
   height: 60px;
-  position: relative;
+  position: absolute;
   width: 100%;
+  bottom: 40px;
 }
 
 .portfolio img {
-  margin: 10px 0;
-  widows: 100%;
+  margin: 0 0 20px 0;
   width: 100%;
-  height: inherit;
-  padding: 10px 0;
+  padding: 0;
+}
+
+.portfolio-text-container {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 body {
