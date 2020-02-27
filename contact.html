@@ -20,7 +20,7 @@
 
           <nav class="navbar sticky-top navbar-light navbar-toggleable-md">
             <a class="navbar-brand" href="#"><span>About Me</span></a>
-      </div>
+          </nav>
       <!-- navbar -->
 
       <!-- hamburger toggle-->
@@ -49,37 +49,44 @@
 
        <!-- contact title-->
        <main class="container">
-        <section class="contact">
-              <h2><span>Contact</span></h2>
-
-        <!-- Name input section-->
-
-          <form>
-              <div class="form-group">
-                  <label for="formGroupExampleInput">Name</label>
-                  <input type="text" class="form-control" id="formGroupExsmpleInput" placeholder="John Smith">
-              </div>
-          </form>
-    
-          <!-- email input section-->
-
-          <form>
-            <div class="form-group">
-                <label for="formGroupExampleInput">Email</label>
-                <input type="text" class="form-control" id="formGroupExsmpleInput" placeholder="hello@johnsmith.com">
-            </div>
-        </form>
-    
-        <!-- message input section-->
+        <div class="contact">
+        <h2>contact</h2>
 
         <form>
-            <div class="form-group">
-                <label for="formGroupExampleInput">Message</label>
-                <input type="text" class="form-control" id="formGroupExsmpleInput" placeholder="please type you message ...">
+
+        
+        <!-- Name input section-->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+   
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name">
+              </div>
+        </div>
+          <!-- email input section-->
+
+
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email">
             </div>
-        </form>
-        <button type="button" class="btn btn-primary btn-lg">Send Message</button>
-    </section>
+          </div>
+    
+        <!-- message input section-->
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message"></textarea>
+          </div>
+        </div>
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <button type="button" class="btn btn-primary btn-lg">Send Message</button>
+              </div>
+            </div>
+    </form>
+
     </main>
 
       <!-- main content -->
