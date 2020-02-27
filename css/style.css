@@ -23,7 +23,8 @@ h2 {
   margin: 45px 0;
   padding: 25px 10px;
   text-transform: uppercase;
-  color: chocolate;
+  color: rgb(209, 132, 77);
+  border-bottom: 3px solid rgba(216, 141, 88, 0.568);  
 }
 
 h2 span {
@@ -75,7 +76,7 @@ body {
   background-color:  #ffebec;
 }
 
-.form-group {
+form {
   font-size: 14px;
   text-transform: uppercase;
   color: darkgoldenrod;
