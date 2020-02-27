@@ -31,10 +31,14 @@ h2 span {
   padding: 15px 15px;
 }
 
-.portfolio h2 {
-  margin: 45px 0;
-  text-transform: uppercase;
+.profile-pic {
+  width: 250px;
+  display: block;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
 }
+
 .portfolio p {
   color: beige;
   font-size: 18px;
