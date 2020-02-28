@@ -4,9 +4,9 @@
   height: 62px;
 
 }
-nav .navbar-nav li a{
+nav .navbar-nav a {
   color: chocolate !important;
-  }
+}
 
 .navbar-brand span {
   color:  #ffd2d4;
@@ -100,23 +100,20 @@ form {
 
 footer {
   background-color: #f5979c;
-  min-height: 220px;
-  background-image: url('../img/footer_background.png');
-  background-repeat: repeat;
-  background-size: 60%;
-  background-position: center;
-  color: #f5979c;
+  color: #faebec;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px;
+}
+
+footer p {
+  color: #faebec;
 }
 
 #sticky-footer {
   flex-shrink: none;
 }
-
 
 .social-icon {
   height: 40px;
