@@ -12,7 +12,7 @@ h2 {
   margin: 45px 0;
   padding: 25px 10px;
   text-transform: uppercase;
-  color: rgb(209, 132, 77);
+  color: chocolate;
   border-bottom: 3px solid rgba(216, 141, 88, 0.568);  
 }
 
@@ -23,8 +23,16 @@ nav .navbar-nav.active {
   color:  #f5979c;
 }
 
+.navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
 a {
   color: #f5979c;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
 }
@@ -38,7 +46,7 @@ nav a:hover {
 }
 
 .navbar-brand span {
-  color:  #ffd2d4;
+  color:  #fee5e7;
   background-color: chocolate;
   padding: 15px 15px;
 }
@@ -58,13 +66,10 @@ nav a:hover {
 @media (max-width: 579px) {
   .nav-link {
     text-align: center !important;
-    margin: 10px 25px 10px 65px;
+    margin: 10px 25px 10px 45px;
     padding: 2px 2px;
   }
-}
-
-@media (max-width: 579px) {
-.navbar-brand {
+  .navbar-brand {
     margin: 0;
     background-color: chocolate;
     text-align: center !important;
@@ -122,6 +127,7 @@ nav a:hover {
 form {
   font-size: 14px;
   text-transform: uppercase;
+  font-weight: 400;
   color: rgb(216, 143, 33);
 }
 
