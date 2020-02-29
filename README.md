@@ -1,14 +1,24 @@
 # portfolio-homework
 Wk 2 - homework - portfolio site
 
+Project Scope:
+Design a responsive personal portfolio website using Bootstrap 4 and with minimal media queries, based on images provided.
 
-text-ocer images in portfolio 
+First Stage: 
+* HTML structure for index.html page, portfolio.html and contact.html
+* basic CSS applied 
 
-default column, which is the smallest screen size, has adefault padding of 15px left and right
+Second Stage: 
+* CSS styles applied
+* images resized
 
-In order to over ride this default coumn styling, I added a class to specifically style it to meet the breif.
+Third Stag:
+* navbar and footer constructed and styled 
 
-The class used was .styling-column for readability.
+Final Stage:
+* adding styles to all pages
+* adding media query to the mobile viewport
 
-Padding was added to the images to create two distinct columns. The styles were then included to meet this new class.
 
+Image Copywright: www.girlbossstock.com
+Author: Nicole Genimahaliotis
