@@ -1,22 +1,11 @@
+/* BASE STYLES */
 
-.navbar {
-  background-color: rgb(255, 196, 196);
-  height: 62px;
-
-}
-nav .navbar-nav a {
-  color: chocolate !important;
+body {
+  background-image: url('../img/bg-pattern.jpg');
 }
 
-.navbar-brand span {
-  color:  #ffd2d4;
-  background-color: chocolate;
-  padding: 22px 22px;
-}
-
-.contact h2 {
-  margin: 25px 0;
-  text-transform: uppercase;
+.container {
+  background-color:  #ffebec;
 }
 
 h2 {
@@ -27,10 +16,62 @@ h2 {
   border-bottom: 3px solid rgba(216, 141, 88, 0.568);  
 }
 
-h2 span {
-  background-color: ;
+/* NAV BAR STYLES */
+
+
+nav .navbar-nav.active {
+  color:  #f5979c;
+}
+
+a {
+  color: #f5979c;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.active {
+  color:  chocolate;
+}
+
+nav a:hover {
+  color:  rgb(244, 193, 116);
+}
+
+.navbar-brand span {
+  color:  #ffd2d4;
+  background-color: chocolate;
   padding: 15px 15px;
 }
+
+.d-inline {
+  display: inline!important;
+  border-bottom: none;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 15px !important;
+}
+.pt-3, .py-3 {
+  padding-top: 15px !important;
+}
+
+@media (max-width: 579px) {
+  .nav-link {
+    text-align: center !important;
+    margin: 10px 25px 10px 65px;
+    padding: 2px 2px;
+  }
+}
+
+@media (max-width: 579px) {
+.navbar-brand {
+    margin: 0;
+    background-color: chocolate;
+    text-align: center !important;
+  } 
+}
+
+/* ABOUT ME */
 
 .profile-pic {
   width: 250px;
@@ -38,7 +79,15 @@ h2 span {
   float: left;
   margin-right: 25px;
   margin-bottom: 15px;
+  padding: 10px 10px;
 }
+
+.profile p {
+  font-size: 16px;
+  color: rgb(184, 121, 121);
+}
+
+/* PORTFOLIO */
 
 .portfolio p {
   color: beige;
@@ -68,20 +117,13 @@ h2 span {
   padding-right: 0;
 }
 
-body {
-  background-image: url('../img/bg-pattern.jpg');
-}
-
-.container {
-  background-color:  #ffebec;
-}
+/* CONTACT */
 
 form {
   font-size: 14px;
   text-transform: uppercase;
-  color: darkgoldenrod;
+  color: rgb(216, 143, 33);
 }
-
 
 .btn {
   background-color: #ffbbbe;
@@ -97,6 +139,8 @@ form {
   border-radius: 0;
   border-color: chocolate;
 }
+
+/* FOOTER */
 
 footer {
   background-color: #f5979c;
@@ -124,3 +168,6 @@ footer p {
 .social-icons-container {
   text-align: center;
 }
+
+
+
