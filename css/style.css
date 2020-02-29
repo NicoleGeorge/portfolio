@@ -9,6 +9,7 @@ body {
 }
 
 h2 {
+  font-family: 'IBM Plex Sans';
   margin: 45px 0;
   padding: 25px 10px;
   text-transform: uppercase;
@@ -16,8 +17,16 @@ h2 {
   border-bottom: 3px solid rgba(216, 141, 88, 0.568);  
 }
 
-/* NAV BAR STYLES */
+p {
+  font-family: 'Inconsolata';
+}
 
+
+a {
+  font-family: 'IBM Plex Mono';
+}
+
+/* NAV BAR STYLES */
 
 nav .navbar-nav.active {
   color:  #f5979c;
@@ -31,7 +40,7 @@ nav .navbar-nav.active {
 a {
   color: #f5979c;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
@@ -66,14 +75,20 @@ nav a:hover {
 @media (max-width: 579px) {
   .nav-link {
     text-align: center !important;
-    margin: 10px 25px 10px 45px;
+    margin: 10px 25px 10px 50px;
     padding: 2px 2px;
   }
   .navbar-brand {
     margin: 0;
     background-color: chocolate;
     text-align: center !important;
+    padding: 0;
   } 
+  .navbar-brand span {
+    color:  #fee5e7;
+    background-color: chocolate;
+    padding: 10px 10px;
+  }
 }
 
 /* ABOUT ME */
@@ -87,10 +102,6 @@ nav a:hover {
   padding: 10px 10px;
 }
 
-.profile p {
-  font-size: 16px;
-  color: rgb(184, 121, 121);
-}
 
 /* PORTFOLIO */
 
@@ -131,6 +142,7 @@ form {
   color: rgb(216, 143, 33);
 }
 
+
 .btn {
   background-color: #ffbbbe;
   border-color:  #ffbbbe;
@@ -149,8 +161,13 @@ form {
 /* FOOTER */
 
 footer .container {
+  width: auto;
+  width: 100%;
+  margin: 170px 0 0;
+  padding: 0 15px;
   background-color: #f5979c;
 }
+
 
 footer {
   color: #faebec;
@@ -181,8 +198,8 @@ footer p {
 }
 
 .social-icon {
-  height: 40px;
-  margin: 20px 20px;
+  height: 30px;
+  margin: 20px 10px;
 
 }
 
