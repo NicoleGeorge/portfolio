@@ -1,6 +1,8 @@
 # portfolio-homework
 Wk 2 - homework - portfolio site
 
+View Site: https://nicolegeorge.github.io/portfolio/index.html
+
 Project Scope:
 Design a responsive personal portfolio website using Bootstrap 4 and with minimal media queries, based on images provided.
 
@@ -19,6 +21,22 @@ Final Stage:
 * adding styles to all pages
 * adding media query to the mobile viewport
 
-
-Image Copywright: www.girlbossstock.com
+Credits:
+Image Copyright: www.girlbossstock.com
 Author: Nicole Genimahaliotis
+
+Screenshots:
+INDEX.HTML file (980px)
+
+![](screenshots/980%20-%20Index.png)
+
+PORTFOLIO.HTML file (980px)
+
+![](screenshots/640%20-%20portfolio.png)
+
+CONTACT.HTML file(640px)
+
+![](screenshots/640%20-%20contact.png)
+
+
+
